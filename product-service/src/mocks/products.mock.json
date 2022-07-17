@@ -1,0 +1,818 @@
+[
+  {
+    "count": 18,
+    "description": "excepteur nostrud enim ullamco culpa reprehenderit officia exercitation ipsum officia aliqua fugiat deserunt sunt amet consectetur ut dolor commodo commodo pariatur Lorem dolore ex duis laboris proident cupidatat nisi sint occaecat ea sint minim laborum commodo veniam quis exercitation irure",
+    "id": "612fe4ecea58ead53cd93899",
+    "price": 9834,
+    "title": "Dell Precision Laptop (5550-279172)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6736/465/preview_b/precision5550279172_dell_610d2a0ba4892.jpeg"
+  },
+  {
+    "count": 5,
+    "description": "minim ad aliquip consectetur aute veniam ullamco consectetur proident mollit amet commodo id pariatur enim tempor laborum exercitation est aliquip irure nostrud reprehenderit commodo ad cillum nulla qui enim exercitation ut incididunt id est eu magna ipsum officia culpa ea",
+    "id": "612fe4ecf68b66736021e152",
+    "price": 2847,
+    "title": "Apple MacBook Pro 16' Touch Bar 2019 512GB / MVVL2 (Silver)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/5784/834/preview_b/macbookpro16touchbar2019512gbmvvl2_apple_5ddd180886249.jpeg"
+  },
+  {
+    "count": 5,
+    "description": "amet nostrud excepteur nisi est pariatur sunt id non nulla pariatur quis do veniam mollit minim minim culpa et est duis ipsum consequat occaecat in ullamco reprehenderit cupidatat velit nostrud labore qui mollit est et incididunt deserunt magna duis tempor",
+    "id": "612fe4ec127d3932c92c35b3",
+    "price": 5010,
+    "title": "Lenovo ThinkPad X1 Carbon Gen 9 laptop (20XW005TRT)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6595/513/preview_b/thinkpadx1carbongen920xw005trt_lenovo_61041ade24efd.jpeg"
+  },
+  {
+    "count": 18,
+    "description": "voluptate consequat dolor quis consectetur commodo consequat Lorem cillum anim sint ipsum commodo anim exercitation ex occaecat sunt adipisicing dolore do est enim ea tempor ea elit ullamco est duis magna nisi duis est elit consequat commodo sit cillum deserunt",
+    "id": "612fe4ecbf9776bdd90e3d73",
+    "price": 5410,
+    "title": "HP Zbook 15 Power G7 Notebook PC (1J3Y6EA)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6525/147/preview_b/zbook15powerg71j3y6ea_hp_60c9c1819def3.png"
+  },
+  {
+    "count": 7,
+    "description": "excepteur incididunt proident anim cupidatat mollit irure nostrud eiusmod veniam nisi magna nisi sit reprehenderit nulla tempor aliqua ad ullamco laborum ad exercitation tempor non laborum ex mollit elit consectetur aliqua aute cupidatat qui nisi aliqua cupidatat ullamco exercitation anim",
+    "id": "612fe4eca466c77bf2b9dba4",
+    "price": 1444,
+    "title": "HP ZBook 17 Fury G7 Notebook PC (119Y5EA)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6425/542/preview_b/zbook17furyg7119y5ea_hp_611ccf7ad0a02.jpeg"
+  },
+  {
+    "count": 7,
+    "description": "ad tempor sunt commodo esse duis fugiat culpa commodo elit non qui fugiat ipsum et ullamco qui consectetur ullamco officia proident nostrud voluptate anim nulla proident aute pariatur ullamco mollit qui minim voluptate nisi aliquip et id labore cillum sint",
+    "id": "612fe4ec8ff37ba0fc2893e4",
+    "price": 5248,
+    "title": "Lenovo ThinkPad T15 G2 laptop (20W4007WRT)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6598/552/preview_b/thinkpadt15g220w4007wrt_lenovo_6114f224acbbe.jpeg"
+  },
+  {
+    "count": 18,
+    "description": "aliquip duis incididunt aliquip proident mollit proident ex occaecat ullamco duis ad anim id aliqua nulla aute duis in non esse mollit sunt Lorem nostrud officia aliquip consectetur culpa culpa cillum laborum ex deserunt excepteur deserunt anim ex labore nulla",
+    "id": "612fe4ec83f45e0cc80df11d",
+    "price": 5324,
+    "title": "HP EliteBook x360 1030 G7 Notebook PC (1J6L4EA)"
+  },
+  {
+    "count": 18,
+    "description": "ex veniam minim amet sunt sint amet elit minim consectetur velit sit laborum sunt incididunt anim do id in sit esse amet dolore fugiat non ut duis reprehenderit anim aute officia quis ipsum nisi veniam ipsum aute velit ad aliquip",
+    "id": "612fe4ec62681c0297ce2b0f",
+    "price": 7269,
+    "title": "Apple MacBook Pro 13' M1 2020 256GB / Z11D0003C (Silver)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6461/610/preview_b/macbookpro13m12020256gbz11d0003c_apple_606b2dc911948.jpeg"
+  },
+  {
+    "count": 7,
+    "description": "elit consectetur exercitation eu enim anim veniam sunt ex eu est excepteur incididunt in sint consectetur aute ad veniam reprehenderit veniam cillum cillum veniam enim sunt voluptate id pariatur elit ea adipisicing et duis officia ad voluptate consectetur exercitation reprehenderit",
+    "id": "612fe4ec77b1c9ff34c54803",
+    "price": 8700,
+    "title": "Asus UX535LI-E2222T Laptop",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6736/443/preview_b/ux535lie2222t_asus_6103f517b8af7.jpeg"
+  },
+  {
+    "count": 9,
+    "description": "deserunt voluptate ut pariatur mollit et sit id proident eu minim laboris dolor commodo irure enim Lorem aute et aute laborum fugiat elit voluptate magna pariatur deserunt veniam aute dolor et mollit velit labore nisi eiusmod esse enim in eu",
+    "id": "612fe4ecaa8edb468001d84b",
+    "price": 5475,
+    "title": "Dell Latitude 14 laptop (7410-212278)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6144/674/preview_b/latitude7410212278_dell_609a5f1df3f0f.jpeg"
+  },
+  {
+    "count": 18,
+    "description": "labore irure nulla consequat laborum irure tempor do amet adipisicing enim irure ipsum enim excepteur ex fugiat laborum tempor Lorem exercitation qui fugiat consequat officia anim cupidatat do mollit aliqua commodo elit proident duis eu occaecat irure commodo eiusmod pariatur",
+    "id": "612fe4ec9bb64516c92d86d1",
+    "price": 5757,
+    "title": "HP Specter x360 Laptop 13 (3B0H3EA)"
+  },
+  {
+    "count": 18,
+    "description": "do est pariatur in nostrud laboris ut ex in consectetur minim voluptate dolore amet sunt deserunt consequat occaecat ex anim aute sint enim minim ut sunt aute nulla culpa aliquip nulla ut dolor non nisi nisi et in sit officia",
+    "id": "612fe4ecccfc73e6ba638bce",
+    "price": 9265,
+    "title": "Dell Latitude Laptop (7310-212279)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6144/646/preview_b/latitude7310212279_dell_5f8da2ed27c45.jpeg"
+  },
+  {
+    "count": 18,
+    "description": "adipisicing culpa adipisicing reprehenderit cupidatat mollit velit laboris tempor Lorem occaecat do Lorem laborum id occaecat eu mollit elit quis aliqua irure duis id eiusmod sit nostrud quis pariatur tempor voluptate dolor eiusmod elit enim voluptate proident cillum officia nulla",
+    "id": "612fe4ecf622511779f25dfc",
+    "price": 2021,
+    "title": "Dell Inspiron G7 17 Gaming Laptop (7700-215329)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6255/145/preview_b/inspirong7177700215329_dell_6017f2b1752fa.jpeg"
+  },
+  {
+    "count": 9,
+    "description": "nulla culpa fugiat nisi proident ad magna reprehenderit nulla ea minim amet aute irure sint amet minim occaecat sit reprehenderit qui labore duis anim ullamco do do ipsum laboris anim sit occaecat quis nulla magna laborum deserunt aliqua magna tempor",
+    "id": "612fe4ec04807a94ee414026",
+    "price": 2608,
+    "title": "Asus Rog Strix G15 G513QM-HF121 Gaming Laptop",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6870/47/preview_b/rogstrixg15g513qmhf121_asus_612f76efed032.jpeg"
+  },
+  {
+    "count": 2,
+    "description": "ut reprehenderit cupidatat reprehenderit aute consectetur labore sint incididunt occaecat deserunt eu quis ut in nostrud incididunt veniam ex deserunt ex quis mollit adipisicing tempor laboris ipsum ullamco irure velit fugiat occaecat enim esse velit ut aute ipsum incididunt nisi",
+    "id": "612fe4ecbe8833c5e72318e6",
+    "price": 9196,
+    "title": "Apple MacBook Pro 13' M1 2020 Laptop 256GB / MYD82 (Space Gray)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6268/637/preview_b/macbookpro13m12020256gbmyd82_apple_5fbe5e5edf498.jpeg"
+  },
+  {
+    "description": "minim commodo pariatur ea excepteur dolore veniam enim est incididunt velit aliqua aliquip commodo nisi sunt ullamco duis cupidatat duis aliqua veniam nisi eu ipsum do deserunt non proident ut sit commodo aliqua eiusmod Lorem pariatur nostrud ipsum sint eu",
+    "id": "612fe4ec5c0c6f8908c68dcc",
+    "price": 8561,
+    "title": "Dream Machines RG3060-17BY26 Gaming Laptop",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6827/282/preview_b/rg306017by26_dream_machines_6124ac0ee69b5.png"
+  },
+  {
+    "count": 1,
+    "description": "voluptate laborum sit sunt exercitation cupidatat et sunt fugiat nulla ex ullamco elit adipisicing exercitation eu veniam do in excepteur nulla aliquip qui dolore adipisicing deserunt occaecat irure adipisicing Lorem elit velit eu duis dolore nulla aute reprehenderit nisi ut",
+    "id": "612fe4ec1f3a1332b8a808de",
+    "price": 2231,
+    "title": "Acer ConceptD 3 Gaming Laptop CN315-72G-565R (NX.C5XEU.003)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6448/854/preview_b/conceptd3cn31572g565r_acer_60a3a27bd00ad.jpeg"
+  },
+  {
+    "count": 11,
+    "description": "duis sunt ad exercitation ut enim consequat et reprehenderit aliquip ipsum elit tempor dolor nisi do amet esse labore labore do amet do do non id nostrud dolor commodo dolore velit ipsum amet ipsum do nostrud labore quis ea elit",
+    "id": "612fe4ecf1f618a0d114f4d1",
+    "price": 8936,
+    "title": "HP Victus Laptop 16 (4D4U7EA)"
+  },
+  {
+    "count": 20,
+    "description": "nisi labore consequat quis aliquip duis deserunt consectetur laborum cillum eiusmod consectetur labore cupidatat velit commodo labore incididunt magna adipisicing ex ullamco qui aliqua voluptate enim occaecat sint dolore ex sit mollit elit quis ea culpa labore consectetur dolore duis",
+    "id": "612fecfeaf71e5e9648b7db5",
+    "price": 2683,
+    "title": "Lenovo ThinkStation P340 Tiny System Unit (30DES23S00)"
+  },
+  {
+    "count": 5,
+    "description": "aliqua eiusmod deserunt eiusmod sunt deserunt enim eu officia culpa laboris consectetur adipisicing ullamco eiusmod nulla aute excepteur duis ullamco exercitation nulla voluptate in esse pariatur veniam est voluptate mollit excepteur excepteur sit aliquip elit elit pariatur dolore ad dolor",
+    "id": "612fecfe8f76b2edc8649c25",
+    "price": 9152,
+    "title": "Game system unit Z-Tech 7-58X-32-240-1000-450-N-370050",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6465/500/preview_b/758x322401000450n370050n_ztech_606c8011c1915.jpeg"
+  },
+  {
+    "count": 19,
+    "description": "culpa amet deserunt reprehenderit nulla cillum in aute consectetur excepteur veniam nulla reprehenderit nulla culpa Lorem ex irure tempor aute id labore dolor esse occaecat reprehenderit minim quis duis elit minim elit deserunt aliquip voluptate nostrud adipisicing velit exercitation labore",
+    "id": "612fecfe183d6b36c88129c3",
+    "price": 4543,
+    "title": "Gaming system unit Z-Tech 5-56X-32-240-1000-450-N-370050n",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6465/500/preview_b/758x322401000450n370050n_ztech_606c8011c1915.jpeg"
+  },
+  {
+    "count": 2,
+    "description": "do enim consectetur voluptate et enim est cupidatat ut ea ut duis nostrud eiusmod adipisicing fugiat amet nisi ut voluptate deserunt pariatur enim occaecat nulla magna amet laborum Lorem sunt commodo cillum consequat dolor enim minim pariatur eu cupidatat non",
+    "id": "612fecfe95e0f5e6b9f864e7",
+    "price": 6557,
+    "title": "System unit Z-Tech I5-106-32-240-1000-460-N-370050n",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6465/500/preview_b/758x322401000450n370050n_ztech_606c8011c1915.jpeg"
+  },
+  {
+    "count": 2,
+    "description": "sint qui minim occaecat cillum tempor non do do cupidatat adipisicing nisi excepteur ea aliqua aliqua dolore dolore enim et esse magna cillum aute dolor aliqua tempor velit nulla labore veniam occaecat excepteur Lorem pariatur sint consequat sint sint labore",
+    "id": "612fecfe933eb817162033a0",
+    "price": 2208,
+    "title": "Gaming system unit Z-Tech 5-36-32-240-1000-450-N-370050n",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6465/500/preview_b/758x322401000450n370050n_ztech_606c8011c1915.jpeg"
+  },
+  {
+    "count": 3,
+    "description": "fugiat irure commodo nisi excepteur eu id est sint officia magna eiusmod magna enim ad voluptate sit voluptate aliqua quis eu pariatur amet nisi adipisicing ipsum ut incididunt nostrud fugiat anim proident reprehenderit deserunt et eiusmod ea excepteur esse magna",
+    "id": "612fecfe6c78b9e5d00b341a",
+    "price": 4436,
+    "title": "Gaming system unit Z-Tech I5-106-16-240-1000-460-N-370050n",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6465/500/preview_b/758x322401000450n370050n_ztech_606c8011c1915.jpeg"
+  },
+  {
+    "count": 2,
+    "description": "proident aliquip voluptate proident sunt nisi laborum excepteur est sunt voluptate esse exercitation sit adipisicing mollit veniam anim amet officia ipsum tempor est proident incididunt exercitation nulla aliqua qui aliquip exercitation et fugiat nisi ullamco elit voluptate consectetur labore fugiat",
+    "id": "612fecfe72a4904b878b5f1c",
+    "price": 2417,
+    "title": "Game system unit Jet Gamer 9i10900KFD32SD96X306L2W7",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6482/947/preview_b/gamer9i10900kfd32sd96x306l2w7_jet_6076a9f183349.png"
+  },
+  {
+    "count": 23,
+    "description": "nulla laboris magna est nulla nostrud aliqua ea exercitation in duis adipisicing ullamco elit ut consectetur occaecat quis qui adipisicing labore labore fugiat pariatur cupidatat pariatur qui elit in eu excepteur mollit adipisicing anim id duis amet Lorem excepteur consequat",
+    "id": "612fecfef1c4cdbaae6a9c41",
+    "price": 5565,
+    "title": "Game system unit Jet Gamer 9i10900KFD32SD48X306L2W7",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6482/947/preview_b/gamer9i10900kfd32sd96x306l2w7_jet_6076a9f183349.png"
+  },
+  {
+    "count": 25,
+    "description": "aute cillum incididunt esse voluptate sit dolor excepteur est ullamco tempor aute eiusmod ullamco dolor reprehenderit cillum id duis ea proident deserunt sunt amet mollit tempor duis eu in aute adipisicing exercitation ipsum culpa quis et consequat laboris tempor in",
+    "id": "612fecfeac420495193be546",
+    "price": 3408,
+    "title": "Gaming system unit Z-Tech 5-36X-32-240-1000-450-N-370050n",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6465/500/preview_b/758x322401000450n370050n_ztech_606c8011c1915.jpeg"
+  },
+  {
+    "count": 5,
+    "description": "anim commodo officia eu ex duis sit cupidatat sit minim ea laborum ex quis minim nulla velit tempor consectetur anim ipsum amet eiusmod aliquip magna id enim sunt cillum duis ex pariatur proident Lorem voluptate id nisi anim dolor esse",
+    "id": "612fecfef87d1811167dc8c2",
+    "price": 8010,
+    "title": "Game system unit Jet Gamer 9i10900KFD32SD24X306L2W7",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6482/947/preview_b/gamer9i10900kfd32sd96x306l2w7_jet_6076a9f183349.png"
+  },
+  {
+    "count": 25,
+    "description": "eu eu nulla labore incididunt consectetur anim ullamco elit fugiat reprehenderit ex fugiat pariatur consectetur reprehenderit voluptate proident magna cillum excepteur cillum sit ut aliqua Lorem ea ea aliquip esse amet minim qui magna sint ullamco aute commodo exercitation in",
+    "id": "612fecfe77ad121410ce32e5",
+    "price": 8913,
+    "title": "Gaming system unit Z-Tech I5-106K-16-240-1000-Z490-N-360059n",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6309/302/preview_b/i5106k162401000z490n360059n_ztech_5fe0a02342ab8.jpeg"
+  },
+  {
+    "count": 10,
+    "description": "nulla excepteur eu fugiat consectetur in pariatur sint ex sit excepteur laboris non duis sit et non mollit eu in ea excepteur id veniam consectetur fugiat dolore enim est minim aliquip cillum officia cupidatat labore enim mollit ut labore nostrud",
+    "id": "612fecfea3d13b318d1db6ab",
+    "price": 4473,
+    "title": "Game system unit Jet Gamer 7i10700KFD32SD96X306L2W7",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6482/947/preview_b/gamer9i10900kfd32sd96x306l2w7_jet_6076a9f183349.png"
+  },
+  {
+    "count": 14,
+    "description": "proident magna dolor pariatur consequat sunt non est magna nulla sint culpa nostrud eiusmod aute officia ex elit minim excepteur est quis anim in quis laborum aute veniam enim sunt ullamco sint ipsum nulla irure non ad cillum deserunt laborum",
+    "id": "612fecfe5c8f3b97bf082c12",
+    "price": 4889,
+    "title": "Game system unit Jet Gamer 7R3700XD32SD96X306L3W7",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6541/68/preview_b/gamer7r3700xd32sd96x306l3w7_jet_609fa1df68554.png"
+  },
+  {
+    "count": 23,
+    "description": "consequat aliquip quis incididunt ea non laborum ut magna commodo veniam voluptate mollit deserunt ipsum ipsum et labore cillum est enim cupidatat nostrud deserunt deserunt id non nostrud sunt ipsum sunt ut culpa quis eiusmod ea veniam culpa eu velit",
+    "id": "612fecfee18cba1678fd7b4f",
+    "price": 3008,
+    "title": "Game system unit Jet Gamer 5R5600XD32SD96X306L3W7",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6541/68/preview_b/gamer7r3700xd32sd96x306l3w7_jet_609fa1df68554.png"
+  },
+  {
+    "count": 23,
+    "description": "dolor duis nulla ea eu ea tempor velit nulla velit magna nostrud commodo exercitation est Lorem ullamco adipisicing esse ea in minim nulla commodo reprehenderit aute velit nisi occaecat voluptate magna eiusmod veniam do proident voluptate adipisicing officia enim voluptate",
+    "id": "612fecfe14ccfc970904867f",
+    "price": 8470,
+    "title": "Computer OPS NewLine WB7A120W"
+  },
+  {
+    "count": 17,
+    "description": "commodo consequat veniam est consequat mollit deserunt duis non dolore exercitation aliqua ullamco reprehenderit nulla amet aliquip laboris laborum adipisicing deserunt excepteur consectetur do velit do sit sit excepteur consectetur consequat veniam aliquip veniam laborum eu fugiat sit id in",
+    "id": "612fecfee1535e7ff740ca00",
+    "price": 6823,
+    "title": "Game system unit Jet Gamer 7R3700XD32SD96X306L2W7",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6482/947/preview_b/gamer9i10900kfd32sd96x306l2w7_jet_6076a9f183349.png"
+  },
+  {
+    "count": 13,
+    "description": "enim ullamco laboris aliqua consequat ut consectetur ea consectetur duis aliquip do esse commodo in aute irure enim occaecat enim eiusmod amet excepteur excepteur sit quis quis enim laborum nulla et exercitation duis velit nisi aute ea magna ipsum adipisicing",
+    "id": "612fecfe1a0ec6380516ddde",
+    "price": 7187,
+    "title": "Game system unit Jet Gamer 5R5600XD32SD96X306L2W7",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6482/947/preview_b/gamer9i10900kfd32sd96x306l2w7_jet_6076a9f183349.png"
+  },
+  {
+    "count": 8,
+    "description": "cupidatat exercitation dolore aute commodo ut dolor cupidatat officia enim nostrud cupidatat ad excepteur exercitation duis et irure tempor in cupidatat consectetur do adipisicing reprehenderit duis fugiat anim esse duis in mollit velit deserunt exercitation adipisicing non tempor aliqua occaecat",
+    "id": "61313073112d6f862204c001",
+    "price": 1613,
+    "title": "Game console Sony PlayStation 4 1TB GTS / HZD CE / SpiderM / PS719391302 (PS 3M)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6101/32/preview_b/playstation41tbgtshzdcespidermps719391302ps3m_sony_5f21181a90537.jpeg"
+  },
+  {
+    "count": 4,
+    "description": "cillum elit nisi dolore proident consequat duis do deserunt velit commodo ullamco veniam exercitation laboris excepteur eiusmod nulla duis ullamco in non consequat id enim duis fugiat sit pariatur tempor do eiusmod qui id dolore anim mollit ad mollit ullamco",
+    "id": "61313073e431f471b57a7fb7",
+    "price": 1216,
+    "title": "Game console Sega Magistr Titan 2 400 games",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1021/457/preview_b/magistrtitan2400_sega_5ce274ad2a248.jpeg"
+  },
+  {
+    "count": 16,
+    "description": "sint est incididunt dolore tempor laborum incididunt anim eu nostrud dolor consequat qui ullamco laboris ipsum exercitation officia cillum fugiat incididunt esse tempor consequat deserunt proident incididunt ut commodo in eiusmod sit cupidatat officia quis enim pariatur quis Lorem occaecat",
+    "id": "6131307312d06e7fc11b6d4f",
+    "price": 1195,
+    "title": "Sega Master Titan 500 Games Console (Black)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1021/569/preview_b/titan500_sega_5ce276a6125c7.jpeg"
+  },
+  {
+    "count": 28,
+    "description": "anim incididunt aute ipsum mollit enim aliquip deserunt in veniam nostrud ea laboris ut eiusmod laboris culpa reprehenderit mollit eiusmod nostrud ex non et mollit qui id ipsum deserunt id reprehenderit consequat excepteur minim aute ut excepteur laboris cupidatat veniam",
+    "id": "613130732a8e9d97216ae2ab",
+    "price": 907,
+    "title": "Game console Sega Magistr X 220 games",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1021/564/preview_b/magistrx220_sega_5ce277cbbc1dd.jpeg"
+  },
+  {
+    "count": 3,
+    "description": "dolor anim ipsum consequat ullamco culpa ipsum sit velit reprehenderit Lorem id anim sint mollit commodo voluptate sunt tempor sunt nostrud proident in ex aliqua nulla non eu id excepteur et officia nulla in culpa incididunt quis voluptate ullamco sint",
+    "id": "613130730c614b8d4b120b34",
+    "price": 959,
+    "title": "Game console Sega Nimbus Smart 740 games",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6385/29/preview_b/nimbussmart740_sega_602d4fdf32824.jpeg"
+  },
+  {
+    "count": 7,
+    "description": "quis ad commodo in nostrud esse quis dolor magna laborum exercitation ipsum aliquip aliqua officia eu velit cillum id dolor ut ut mollit mollit enim mollit et anim proident ad sit mollit enim reprehenderit veniam et veniam enim quis qui",
+    "id": "61313073691a61062be19324",
+    "price": 570,
+    "title": "Game console Dendy Master 300 games",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6232/706/preview_b/master300_dendy_5fc8a47f78a9f.jpeg"
+  },
+  {
+    "count": 14,
+    "description": "officia aliqua cillum ea ea velit nostrud qui excepteur proident incididunt ullamco sint fugiat mollit voluptate amet Lorem sunt quis pariatur eiusmod reprehenderit enim consequat enim eu in tempor duis nulla non non culpa aute voluptate tempor anim voluptate ad",
+    "id": "613130733d0e3036753b9c58",
+    "price": 219,
+    "title": "Game console Nintendo Switch 2019 / HAD-001-01 (red / blue)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/5921/70/preview_b/switch2019had00101_nintendo_5e68fc2b5820c.jpeg"
+  },
+  {
+    "count": 16,
+    "description": "occaecat laboris eiusmod enim consequat adipisicing ipsum anim tempor amet pariatur anim aliqua irure occaecat nostrud occaecat culpa elit labore fugiat ad voluptate sint sint mollit sint culpa ut nostrud enim proident proident ex esse laborum duis anim est enim",
+    "id": "61313073f3ed3050b4976604",
+    "price": 395,
+    "title": "Game console Dendy Vakker 300 games light gun",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6270/247/preview_b/vakker300_dendy_5fc89f771aedc.png"
+  },
+  {
+    "count": 30,
+    "description": "consequat commodo adipisicing quis occaecat in officia ad aliqua laboris excepteur enim pariatur amet ad fugiat exercitation in laboris cillum deserunt sint nisi exercitation tempor officia eiusmod ipsum magna dolore reprehenderit duis reprehenderit nostrud amet nisi consectetur id pariatur irure",
+    "id": "61313073d8bdafc03ae39ef0",
+    "price": 1336,
+    "title": "Gaming console Retro Genesis 8 Bit Classic 300 games",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6524/966/preview_b/8bitclassic300_retro_genesis_60a2218f38e6b.jpeg"
+  },
+  {
+    "count": 4,
+    "description": "labore do exercitation officia minim elit cillum id pariatur velit et minim voluptate tempor amet dolor laboris veniam eu dolore occaecat do ipsum quis dolore in id aliquip sit id reprehenderit non officia reprehenderit occaecat eiusmod voluptate cupidatat incididunt nostrud",
+    "id": "6131307345ecb010b1684b9d",
+    "price": 1422,
+    "title": "Gaming console Retro Genesis 8 Bit HD 300 games (white / red)"
+  },
+  {
+    "count": 8,
+    "description": "quis eu eu id voluptate in in ea consequat qui culpa aliquip qui ut ad in occaecat magna irure irure labore tempor in qui Lorem occaecat commodo nulla dolor anim mollit labore consequat incididunt deserunt est aute magna elit aliquip",
+    "id": "61313073b160ec4b46505f63",
+    "price": 345,
+    "title": "Gaming console Retro Genesis Remix Wireless (8 16Bit) 600 games",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6524/992/preview_b/remixwireless816bit600_retro_genesis_60a22432ded19.jpeg"
+  },
+  {
+    "count": 18,
+    "description": "laborum ea irure anim sit nisi incididunt ex esse ea nulla in duis eu Lorem ullamco dolor ipsum mollit laborum duis exercitation veniam cillum duis nisi qui ex sunt consectetur laborum excepteur commodo sit ea consequat officia do Lorem irure",
+    "id": "61313ca67ba5a68742dedbc1",
+    "price": 1559.87,
+    "title": "Palit GeForce GTX 1660 Super GamingPro OC (NE6166SS18J9-1160A)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/5774/153/preview_b/geforcegtx1660supergamingproocne6166ss18j91160a_palit_5dc99201033d6.png"
+  },
+  {
+    "count": 21,
+    "description": "pariatur Lorem non aliquip officia aute non consequat excepteur nisi duis quis commodo et minim ut nisi reprehenderit ipsum fugiat ullamco eu fugiat id magna nulla cupidatat commodo cupidatat duis aliqua nulla nisi enim cillum deserunt eiusmod ad eiusmod minim",
+    "id": "61313ca6475399c45cdc9d9d",
+    "price": 1763.64,
+    "title": "Video card Asus GT710 1Gb GDDR5 64bit (GT710-SL-1GD5-BRK)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/503/728/preview_b/gt7101gbgddr564bitgt710sl1gd5brk_asus_5a86cc0fe2cc9.jpeg"
+  },
+  {
+    "count": 10,
+    "description": "incididunt reprehenderit nulla duis nulla sunt id voluptate ea reprehenderit duis cillum commodo amet sunt laborum dolor ut et tempor culpa commodo eu sit ad eu laboris enim deserunt deserunt dolor aliquip Lorem sunt sunt exercitation id quis dolore cupidatat",
+    "id": "61313ca69d6825d7fc0a7880",
+    "price": 501.24,
+    "title": "Asus GT1030-SL-2G-BRK graphics card",
+    "imageUrl": "https://cdn21vek.by/img/galleries/471/377/preview_b/gt1030sl2gbrk_asus_599572f8e5635.jpeg"
+  },
+  {
+    "count": 23,
+    "description": "consequat quis velit adipisicing quis ipsum cillum Lorem consequat laborum veniam veniam non ex exercitation esse nulla dolore excepteur ut aute irure culpa aliquip ad deserunt irure minim ut est sunt eiusmod amet commodo ad sint laborum tempor eu id",
+    "id": "61313ca6e2886b5ae610195a",
+    "price": 1876.69,
+    "title": "Video card Gigabyte GV-N710D3-2GL",
+    "imageUrl": "https://cdn21vek.by/img/galleries/412/2/preview_b/gvn710d32gl_gigabyte_58a2af3a8adae.jpeg"
+  },
+  {
+    "count": 7,
+    "description": "amet sunt laborum tempor quis occaecat labore velit voluptate exercitation exercitation minim quis anim in cillum Lorem tempor aliqua eiusmod pariatur consectetur aute quis ipsum ad minim nisi laboris do anim fugiat aliquip aute tempor ut labore eiusmod ut laboris",
+    "id": "61313ca61bf843890ffc50b0",
+    "price": 1020.13,
+    "title": "Asus PH-GTX1650-O4GD6-P graphics card",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6324/813/preview_b/phgtx1650o4gd6p_asus_60632fe47f01f.jpeg"
+  },
+  {
+    "count": 14,
+    "description": "commodo consequat ut ad ea exercitation ut ut exercitation labore aute duis culpa eiusmod esse fugiat ex dolor laboris commodo sint labore adipisicing mollit consectetur voluptate ut veniam ut dolore nulla mollit non nulla aliqua cillum amet non adipisicing elit",
+    "id": "61313ca6ae8d912ed787b97f",
+    "price": 1856.89,
+    "title": "XFX RX 580 Video Card (RX-580P8DFD6)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1128/306/preview_b/rx580rx580p8dfd6_xfx_5d48282fc5012.jpeg"
+  },
+  {
+    "count": 21,
+    "description": "velit aute officia ex do qui id laboris elit Lorem sit ex incididunt cillum ea veniam tempor reprehenderit magna sint nostrud amet magna elit ullamco aliqua pariatur voluptate ut ut nostrud velit minim non sit occaecat in reprehenderit esse consectetur",
+    "id": "61313ca6f7acf7182cabc371",
+    "price": 1363.85,
+    "title": "MSI GT 1030 2GD4 LP OC Graphics Card",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1170/247/preview_b/gt10302gd4lpoc_msi_5d5fc91fcc134.png"
+  },
+  {
+    "count": 10,
+    "description": "non pariatur proident tempor incididunt ad commodo officia id non minim in consequat anim ipsum non do ea fugiat mollit excepteur minim cillum ad adipisicing laboris laboris officia minim ut veniam ipsum ex reprehenderit ex veniam est esse anim fugiat",
+    "id": "61313ca6a886d67e07f22dd4",
+    "price": 1296.59,
+    "title": "Asus GT1030 2GB GDDR5 Ret Video Card (GT1030-2G-BRK)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/542/160/preview_b/gt10302gbgddr5retgt10302gbrk_asus_5a9ed2a235abc.jpeg"
+  },
+  {
+    "count": 18,
+    "description": "ipsum quis laborum sit nisi consequat velit ad ea elit consequat in aute enim ullamco incididunt nisi ex reprehenderit ex eu pariatur magna laboris sunt esse in occaecat deserunt adipisicing consequat culpa Lorem commodo in do dolore dolore reprehenderit ipsum",
+    "id": "61313ca678edd797480c1ce2",
+    "price": 425.98,
+    "title": "AMD Radeon Pro WX 3100 Graphics (100-505999)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6265/74/preview_b/radeonprowx3100100505999_amd_5fb7991063497.jpeg"
+  },
+  {
+    "count": 21,
+    "description": "Lorem enim anim officia Lorem nisi ut incididunt proident laborum culpa mollit id irure consectetur ad id tempor exercitation est in ad mollit aute consectetur mollit cupidatat ipsum dolor culpa laboris minim ipsum est laborum dolore dolore ullamco laboris non",
+    "id": "61313ca6f6bcf892bc825d02",
+    "price": 1921.4,
+    "title": "Video card Asus DUAL-RTX2060-O6G-EVO",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1125/996/preview_b/dualrtx2060o6gevo_asus_5d42dda7d7fb2.jpeg"
+  },
+  {
+    "count": 8,
+    "description": "et laborum velit ea cillum enim aute tempor nulla ipsum proident non reprehenderit ad irure est laboris pariatur adipisicing ullamco et sit adipisicing velit do cillum commodo elit officia Lorem consectetur non qui pariatur reprehenderit ea eiusmod sit eiusmod quis",
+    "id": "61313ca6435db6034b6fb8d4",
+    "price": 584.8,
+    "title": "Asus GT710-SL-2GD5 video card",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6462/410/preview_b/gt710sl2gd5_asus_607055989db8a.jpeg"
+  },
+  {
+    "count": 24,
+    "description": "sit Lorem esse culpa reprehenderit laborum et ad adipisicing nostrud cupidatat pariatur irure eiusmod eu laboris laborum ea deserunt ut cupidatat sit adipisicing aliquip mollit amet cillum exercitation excepteur aliqua nisi ipsum est nisi amet non nisi dolore Lorem ullamco",
+    "id": "61313ca649ee07052752a1ff",
+    "price": 924.99,
+    "title": "PNY Nvidia Quadro P2200 5GB GDDR5 Video Card (VCQP2200-PB)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6300/315/preview_b/nvidiaquadrop22005gbgddr5vcqp2200pb_pny_600295db3551d.jpeg"
+  },
+  {
+    "count": 30,
+    "description": "ea cillum ea proident laboris ex nulla deserunt eu proident ipsum ad veniam minim minim amet eu enim eu est officia deserunt ipsum aliqua occaecat ea cillum cillum nostrud dolor cillum aute Lorem eu occaecat laboris nostrud id quis veniam",
+    "id": "61313ca6baf6c5b9545ef319",
+    "price": 1319.04,
+    "title": "AFOX GeForce GT 220 1GB (AF220-1024D3L4)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6756/786/preview_b/geforcegt2201gbaf2201024d3l4_afox_611130fdd4eaf.jpeg"
+  },
+  {
+    "count": 13,
+    "description": "consequat cupidatat voluptate qui aute et ut exercitation exercitation tempor proident id consequat labore enim mollit in deserunt Lorem aute nisi nostrud velit quis pariatur sit et pariatur ut labore mollit minim fugiat pariatur eiusmod ullamco veniam consectetur Lorem minim",
+    "id": "61313ca671d7ed10309e6354",
+    "price": 480.5,
+    "title": "Arktek GT 730 2GB DDR3 Graphics Card (AKN730D3S2GL1)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6747/706/preview_b/gt7302gbddr3akn730d3s2gl1_arktek_610905fc722de.jpeg"
+  },
+  {
+    "count": 29,
+    "description": "excepteur cillum ullamco et ullamco ad amet enim sint eu in voluptate tempor veniam officia ea magna tempor ex velit deserunt ut dolor enim est est nulla exercitation magna eu mollit incididunt exercitation eiusmod id elit consequat adipisicing deserunt non",
+    "id": "61313ca6c40e3e7764c1418d",
+    "price": 1229.98,
+    "title": "PowerColor AXRX 550 2GBD5-HLEV2 Graphics Card"
+  },
+  {
+    "count": 10,
+    "description": "anim nisi in labore dolore nulla qui aliqua fugiat elit et ea in reprehenderit non ad voluptate amet nostrud in mollit id nostrud minim qui adipisicing culpa minim deserunt irure consectetur cupidatat minim consequat non proident minim labore enim ut",
+    "id": "61313ca6cc86216bbe7b0c59",
+    "price": 502.45,
+    "title": "Biostar Radeon RX 560 (VA5615RF41)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6490/288/preview_b/radeonrx560va5615rf41_biostar_60d05a271d319.jpeg"
+  },
+  {
+    "count": 14,
+    "description": "labore non in consequat ad culpa tempor elit officia elit proident mollit exercitation consequat laborum non tempor id nisi incididunt deserunt velit anim voluptate minim quis voluptate do anim cillum ea non amet proident ex elit do dolore deserunt anim",
+    "id": "61313ca6a61f38fc0f78de6f",
+    "price": 1059.85,
+    "title": "Video card AMD Radeon Pro WX 4100 4GB GDDR5 (100-506008)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6664/910/preview_b/radeonprowx41004gbgddr5100506008_amd_60dd882f36f61.jpeg"
+  },
+  {
+    "count": 8,
+    "description": "nostrud excepteur est ipsum qui anim excepteur excepteur magna amet dolor labore ex occaecat consectetur ut ullamco cupidatat reprehenderit deserunt velit ea incididunt quis veniam exercitation enim amet duis laboris consequat consectetur irure fugiat laborum nisi aliqua qui nostrud exercitation",
+    "id": "61313ca62059f457116e036d",
+    "price": 822.72,
+    "title": "Palit GeForce GTX 1660 Dual 6G (NE51660018J9-1161C)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6647/96/preview_b/geforcegtx1660dual6gne51660018j91161c_palit_60dd9f80c686b.jpeg"
+  },
+  {
+    "count": 11,
+    "description": "minim nisi occaecat elit ullamco nostrud id veniam incididunt ex minim dolore quis enim ad nulla culpa commodo reprehenderit sint officia est fugiat adipisicing eu qui sit culpa labore Lorem nulla id nostrud ex eiusmod culpa magna ipsum eiusmod quis",
+    "id": "61313ca60640c9162053cdae",
+    "price": 1428.07,
+    "title": "Video card Palit RTX2060 Dual 6GB GDDR6 (NE62060018J9-1160A-1)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6687/679/preview_b/rtx2060dual6gbgddr6ne62060018j91160a1_palit_60e81bd4001a6.png"
+  },
+  {
+    "count": 9,
+    "description": "consectetur est proident occaecat ad aliquip nulla deserunt sit irure consequat culpa dolor nulla aute amet officia eu excepteur ex veniam tempor ad tempor magna duis dolore pariatur et laborum incididunt cillum officia magna occaecat non eiusmod duis occaecat do",
+    "id": "61313ca678e5a1dc15f8dd45",
+    "price": 1102.95,
+    "title": "Gigabyte GeForce RTX 3060 Eagle OC 12G (GV-N3060EAGLE OC-12GD)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6661/771/preview_b/geforcertx3060eagleoc12ggvn3060eagleoc12gd_gigabyte_60dd96ab99e87.jpeg"
+  },
+  {
+    "count": 17,
+    "description": "ad non laborum esse esse minim ullamco sint eu anim amet consectetur laborum cillum id ullamco laborum incididunt sit ad dolor elit minim cillum excepteur enim nostrud id magna id magna mollit anim sit do do occaecat mollit non eu",
+    "id": "61314276647cb8089fcbb208",
+    "price": 233.04,
+    "title": "DDR4 RAM Crucial CT8G4DFRA266",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6111/987/preview_b/ct8g4dfra266_crucial_5f3521421ff8d.png"
+  },
+  {
+    "count": 26,
+    "description": "ipsum Lorem ut aute adipisicing consectetur ut incididunt Lorem quis ipsum in qui officia qui excepteur reprehenderit enim elit dolor adipisicing laborum ad aliqua consectetur ut anim elit fugiat mollit proident dolore ut et quis ut velit laboris culpa qui",
+    "id": "613142765dc96f0a9113858f",
+    "price": 261.14,
+    "title": "DDR4 RAM Crucial CT8G4SFRA266",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6126/713/preview_b/ct8g4sfra266_crucial_5f3a6807a6645.png"
+  },
+  {
+    "count": 24,
+    "description": "officia aliqua commodo velit tempor id ullamco ipsum laborum esse labore tempor dolor sit sint cillum excepteur ullamco tempor consequat mollit mollit quis deserunt nisi nostrud aliquip enim sit ad ex Lorem non id occaecat aute occaecat minim ullamco deserunt",
+    "id": "61314276a6ba7ba5ed62b467",
+    "price": 179.13,
+    "title": "DDR4 RAM HyperX HX426C16FB3K2 / 16",
+    "imageUrl": "https://cdn21vek.by/img/galleries/5685/16/preview_b/hx426c16fb3k216_hyperx_5d8cf0715e658.jpeg"
+  },
+  {
+    "count": 1,
+    "description": "ullamco exercitation fugiat excepteur amet minim voluptate nulla est incididunt irure anim non reprehenderit Lorem tempor nulla non deserunt duis magna mollit magna esse est cillum tempor ut cillum sint elit fugiat in excepteur pariatur magna et nostrud ullamco ullamco",
+    "id": "613142762bb8696cb3576d49",
+    "price": 248.32,
+    "title": "RAM DDR4 Kingston KVR26S19S8 / 8",
+    "imageUrl": "https://cdn21vek.by/img/galleries/621/123/preview_b/kvr26s19s88_kingston_5b5ef1e75ea38.jpeg"
+  },
+  {
+    "count": 11,
+    "description": "ex adipisicing duis adipisicing ullamco laboris do duis laborum ut pariatur anim aute non aliquip nulla labore reprehenderit occaecat nostrud culpa est cupidatat sit id velit aliquip nisi occaecat quis sit commodo eiusmod ad aute reprehenderit tempor eu sit laboris",
+    "id": "6131427698b2fd5519c8dd46",
+    "price": 172.42,
+    "title": "RAM DDR2 Patriot PSD24G800K",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1122/5/preview_b/psd24g800k_patriot_5d51094de82ec.jpeg"
+  },
+  {
+    "count": 17,
+    "description": "ipsum voluptate ex et Lorem quis in irure anim elit incididunt enim adipisicing mollit velit nisi excepteur occaecat sunt id nostrud irure elit excepteur ipsum eiusmod esse officia ipsum exercitation reprehenderit duis quis esse Lorem culpa adipisicing in consectetur adipisicing",
+    "id": "6131436b3e388192f3afda2e",
+    "price": 270.88,
+    "title": "SSD Kingston A400 240GB (SA400S37 / 240G)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/476/371/preview_b/a400240gbsa400s37240g_kingston_59bc245a09667.jpeg"
+  },
+  {
+    "count": 15,
+    "description": "ullamco mollit occaecat Lorem dolore labore ipsum ut ipsum ad nulla eu incididunt irure tempor aute Lorem mollit aliqua anim id proident cillum et anim ea tempor eiusmod consectetur ex laboris consectetur sunt adipisicing sit reprehenderit duis id quis tempor",
+    "id": "6131436be06f4b007c239910",
+    "price": 134.21,
+    "title": "SSD Samsung 870 Evo 500Gb (MZ-77E500)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6360/998/preview_b/870evo500gbmz77e500_samsung_60193433cfeb5.jpeg"
+  },
+  {
+    "count": 20,
+    "description": "sunt incididunt duis est Lorem eu aute sint incididunt velit amet aliquip elit veniam ullamco laborum dolor enim aute adipisicing eu incididunt irure minim dolor eu voluptate enim cupidatat consequat magna sit consectetur consequat labore mollit voluptate velit veniam ipsum",
+    "id": "6131436bd62edbe1eb5d34cd",
+    "price": 249.89,
+    "title": "SSD Gigabyte 120GB (GP-GSTFS31120GNTD)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/676/354/preview_b/120gbgpgstfs31120gntd_gigabyte_5d44291f12f5b.png"
+  },
+  {
+    "count": 3,
+    "description": "consectetur nostrud aliqua deserunt culpa et anim duis tempor cillum tempor enim aliqua pariatur quis enim ipsum aliqua commodo cillum elit cillum qui et ea magna amet ullamco ullamco sunt nostrud officia sint anim elit enim sunt consequat fugiat excepteur",
+    "id": "6131436bcb3b45f048b601d0",
+    "price": 248.44,
+    "title": "Seagate BarraCuda 1TB Hard Drive (ST1000DM010)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/412/33/preview_b/barracuda1tbst1000dm010_seagate_586603d1d923a.jpeg"
+  },
+  {
+    "count": 4,
+    "description": "velit laborum Lorem consectetur officia deserunt excepteur irure eu officia irure minim in non reprehenderit est magna mollit esse est anim duis adipisicing dolore non minim esse veniam esse excepteur dolor magna exercitation non adipisicing nisi qui labore dolore veniam",
+    "id": "6131436beabccac2d15634be",
+    "price": 127.39,
+    "title": "Hard Drive Box Gembird EE2-U2S-5",
+    "imageUrl": "https://cdn21vek.by/img/galleries/481/608/preview_b/ee2u2s5_gembird_59d627836a25b.jpeg"
+  },
+  {
+    "count": 7,
+    "description": "qui velit minim ipsum nostrud officia id qui sint ut commodo eu consequat non ut dolore labore ipsum ipsum sint ipsum eiusmod mollit aliqua ullamco pariatur minim pariatur mollit esse amet sint culpa exercitation ipsum sit veniam sunt Lorem fugiat",
+    "id": "6133237440d8e436b3b83899",
+    "price": 62.38,
+    "title": "Keyboard mouse Logitech MK270 / 920-004518",
+    "imageUrl": "https://cdn21vek.by/img/galleries/50/165/preview_b/logitech_mk270wirelesscombo_76027.jpeg"
+  },
+  {
+    "count": 12,
+    "description": "excepteur cupidatat tempor quis velit commodo dolor mollit veniam voluptate veniam aute sint tempor aliquip ullamco quis enim anim qui exercitation qui id Lorem sint ullamco non nostrud amet duis aliquip commodo laborum mollit et in mollit fugiat nostrud proident",
+    "id": "61332374196654275c25311d",
+    "price": 331.97,
+    "title": "Logitech Lightspeed G305 / 910-005282 mouse (black)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1075/990/preview_b/lightspeedg305910005282_logitech_5d1e21a69207f.jpeg"
+  },
+  {
+    "count": 17,
+    "description": "minim sunt duis est magna minim aute tempor velit magna fugiat amet fugiat ad aute tempor anim voluptate nostrud deserunt voluptate occaecat amet proident veniam amet aliqua aliquip labore sint veniam ad deserunt dolore adipisicing laboris voluptate in ipsum laboris",
+    "id": "6133237410111b12d8defa8e",
+    "price": 242.31,
+    "title": "Mouse Logitech MX Anywhere 2S / 910-005153",
+    "imageUrl": "https://cdn21vek.by/img/galleries/556/227/preview_b/bluetoothmousemxanywhere2sl910005153_logitech_5b7a587e46231.png"
+  },
+  {
+    "count": 7,
+    "description": "officia tempor laboris cillum ipsum laboris aliqua magna voluptate commodo irure voluptate duis dolore deserunt in dolor sit quis in nisi nostrud commodo occaecat enim ex laborum deserunt laborum sit Lorem tempor dolore sit dolor officia laborum minim laborum ea",
+    "id": "613323746f0fa8994da8b40a",
+    "price": 113.15,
+    "title": "Keyboard for Logitech K480 / 920-006368 Tablet",
+    "imageUrl": "https://cdn21vek.by/img/galleries/100/56/preview_b/bluetoothmultidevicekeyboardk480920006368_logitech_54ae9d3a34bd9.jpeg"
+  },
+  {
+    "count": 2,
+    "description": "commodo est et nostrud aliquip ullamco anim fugiat enim sunt non aute cupidatat veniam ad dolor cillum voluptate non labore fugiat exercitation ad elit cillum commodo velit veniam do laborum sint eiusmod cillum ad consequat do ea aute sunt cupidatat",
+    "id": "61332374c88df1bb594a9def",
+    "price": 222.44,
+    "title": "Surge protector Defender ES 99486 (5m, 5 outlets, black)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/82/498/preview_b/defender_es99486_561db02de0131.jpeg"
+  },
+  {
+    "count": 15,
+    "description": "nostrud aliqua sunt et voluptate pariatur non voluptate Lorem enim proident ipsum laboris fugiat ipsum aliquip cillum id ex deserunt amet culpa laboris irure veniam exercitation proident sit enim id in irure qui aute elit sunt magna ad magna excepteur",
+    "id": "61332374f4ad26c924225dd1",
+    "price": 490.15,
+    "title": "Voltage stabilizer PROFline V500R",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1046/902/preview_b/v500r_profline_5d3d8e61d387a.jpeg"
+  },
+  {
+    "count": 25,
+    "description": "nostrud deserunt minim nostrud do irure sit laboris sit proident eu ea anim consectetur esse nostrud culpa commodo qui irure dolore incididunt ex velit tempor id incididunt reprehenderit in non quis ea adipisicing sunt voluptate non mollit qui incididunt consequat",
+    "id": "6133237430d64e4c146e3d6a",
+    "price": 294.22,
+    "title": "Extension cord on a reel Truenergy PVA 2x1.5mm.kv. / 15508 (50m)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6320/292/preview_b/2x1515508_truenergy_5ff439918d30d.jpeg"
+  },
+  {
+    "count": 28,
+    "description": "excepteur occaecat deserunt enim proident incididunt anim elit fugiat ad irure aliqua ipsum aliqua aliquip cupidatat do enim ad veniam officia culpa ad mollit anim exercitation Lorem nisi duis ullamco magna anim quis excepteur aute voluptate ex dolor non cupidatat",
+    "id": "613323743527f761b6ce8a2f",
+    "price": 375.65,
+    "title": "Defender G-Lens 2579 HD720p / 63179 webcam",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6075/670/preview_b/glens2579hd720p63179_defender_5f43676d5ea90.png"
+  },
+  {
+    "count": 19,
+    "description": "nostrud aute esse in laborum ea non ipsum occaecat esse adipisicing adipisicing tempor do velit id tempor magna nulla laboris eu do ex et ullamco proident officia eu duis cupidatat pariatur qui laboris et adipisicing consequat esse laboris enim consectetur",
+    "id": "61332374a35f4408a3459666",
+    "price": 318.13,
+    "title": "Webcam Sven IC-545",
+    "imageUrl": "https://cdn21vek.by/img/galleries/400/889/preview_b/ic545_sven_58382b35ef447.jpeg"
+  },
+  {
+    "count": 4,
+    "description": "duis excepteur ipsum culpa nulla sint esse dolor velit do nisi quis deserunt qui aute culpa labore ad mollit officia non commodo sint exercitation nostrud ex excepteur amet ad Lorem nostrud occaecat labore do id cillum qui est voluptate ad",
+    "id": "61332374547359758c2109a2",
+    "price": 459.88,
+    "title": "Webcam TP-Link Tapo C200",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6115/184/preview_b/tapoc200_tplink_5f2bf2f23d715.jpeg"
+  },
+  {
+    "count": 29,
+    "description": "reprehenderit veniam qui duis id deserunt dolore pariatur excepteur aliquip duis dolore occaecat culpa ex eu do tempor irure qui officia veniam Lorem exercitation ea tempor ad amet sint ut minim deserunt nulla pariatur reprehenderit aliquip dolore nisi nisi dolore",
+    "id": "613327be9637972f804b6806",
+    "price": 260.02,
+    "title": "Monitor LG 27GL850-B",
+    "imageUrl": "https://cdn21vek.by/img/galleries/5740/408/preview_b/27gl850gb_lg_60086c6a09281.jpeg"
+  },
+  {
+    "count": 24,
+    "description": "eu commodo aliquip nostrud exercitation cupidatat consequat id voluptate aute veniam ea eu adipisicing do cupidatat exercitation ipsum adipisicing ullamco anim excepteur in magna et laborum magna culpa nisi in ipsum ullamco laboris nulla ad Lorem et cillum commodo magna",
+    "id": "613327be59cbd443b4837598",
+    "price": 311.86,
+    "title": "Monitor LG 24MK600M-B",
+    "imageUrl": "https://cdn21vek.by/img/galleries/666/952/preview_b/24mk600mb_lg_600866270ed42.jpeg"
+  },
+  {
+    "count": 4,
+    "description": "veniam in consectetur est reprehenderit ipsum nisi amet ut enim Lorem labore non in voluptate ipsum non voluptate proident tempor proident et irure amet mollit ut aliqua veniam aute elit sit cupidatat occaecat nostrud labore commodo irure minim deserunt amet",
+    "id": "613327be6ebc5ad45d371e74",
+    "price": 379.18,
+    "title": "Monitor LG 27MK600M-W",
+    "imageUrl": "https://cdn21vek.by/img/galleries/718/523/preview_b/27mk600mw_lg_60086e3a49d70.jpeg"
+  },
+  {
+    "count": 19,
+    "description": "aliquip adipisicing velit ipsum reprehenderit tempor voluptate cupidatat do do laborum consequat in ut occaecat qui enim eiusmod est tempor ipsum mollit mollit exercitation do sunt id veniam fugiat voluptate aute nisi sint ullamco minim id amet irure sunt pariatur",
+    "id": "613327be89c636459dd7f7f9",
+    "price": 287.08,
+    "title": "Monitor LG 27MP59G-P",
+    "imageUrl": "https://cdn21vek.by/img/galleries/457/43/preview_b/27mp59gp_lg_60086e7733101.jpeg"
+  },
+  {
+    "count": 29,
+    "description": "laboris proident excepteur sit proident ut ex dolore quis aute eu proident labore proident proident ex cillum quis in proident Lorem exercitation deserunt sunt cillum dolore laborum nulla laboris sunt culpa mollit duis aute ex ullamco et irure excepteur aute",
+    "id": "613327bedb9f3b57a189ed8d",
+    "price": 202.19,
+    "title": "Monitor LG 27GN800-B",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6405/978/preview_b/27gn800b_lg_604107a3d3379.jpeg"
+  },
+  {
+    "count": 11,
+    "description": "amet Lorem enim qui nulla in sunt deserunt consectetur quis minim ullamco elit irure adipisicing sunt elit laboris proident dolor esse sint ut est labore non eiusmod ea consectetur elit sint cillum fugiat commodo commodo sit laborum duis et nisi",
+    "id": "613327be675e9cf858bea993",
+    "price": 266.86,
+    "title": "Samsung C24RG50FQI Monitor (LC24RG50FQIXCI)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1029/740/preview_b/lc24rg50fqixci_samsung_5cebafd1b840b.jpeg"
+  },
+  {
+    "count": 19,
+    "description": "ipsum et ipsum aute nulla anim eiusmod Lorem et cupidatat consequat aliquip veniam cillum duis anim dolor incididunt officia consectetur quis eu tempor incididunt qui aute nostrud quis irure ad irure laboris occaecat cillum reprehenderit Lorem consectetur laboris est laboris",
+    "id": "613327beb3ce7c34be2e530e",
+    "price": 303.75,
+    "title": "Monitor AOC C24G1",
+    "imageUrl": "https://cdn21vek.by/img/galleries/803/921/preview_b/c24g1_aoc_5c177dbcf2c1c.jpeg"
+  },
+  {
+    "count": 21,
+    "description": "occaecat officia nulla ipsum fugiat sunt do laboris excepteur ut eu est tempor aute sit duis officia nulla enim proident laborum veniam Lorem deserunt qui culpa ipsum reprehenderit esse qui minim cupidatat cillum laboris amet tempor minim anim occaecat officia",
+    "id": "613327bed369d9b7ec1e8655",
+    "price": 285.45,
+    "title": "Monitor Samsung S24R350FHI",
+    "imageUrl": "https://cdn21vek.by/img/galleries/5794/261/preview_b/s24r350fhi_samsung_5de0d2abc253b.jpeg"
+  },
+  {
+    "count": 2,
+    "description": "qui ut laborum labore ex Lorem officia ullamco qui laborum eu ullamco voluptate esse est veniam eiusmod incididunt aliqua nostrud aliquip ut consectetur officia quis ipsum voluptate ipsum magna irure minim tempor consequat quis ex ut cupidatat id et magna",
+    "id": "613327beae6b5f5253e6cf08",
+    "price": 301.98,
+    "title": "Monitor Philips 223V5LHSB2 / 00",
+    "imageUrl": "https://cdn21vek.by/img/galleries/346/371/preview_b/223v5lhsb200_philips_56bd92b1804ad.jpeg"
+  },
+  {
+    "count": 18,
+    "description": "ex eu qui aliqua aliquip reprehenderit officia quis incididunt est dolore laboris duis proident minim dolore ad officia amet in minim proident fugiat magna incididunt consequat ex consequat non elit cillum labore exercitation amet incididunt quis nostrud ut non ullamco",
+    "id": "613327bea78502f68bee8840",
+    "price": 296.6,
+    "title": "Monitor Viewsonic VA2261-2",
+    "imageUrl": "https://cdn21vek.by/img/galleries/435/420/preview_b/va22612_viewsonic_58db966c3cbb2.jpeg"
+  },
+  {
+    "count": 30,
+    "description": "qui consectetur nisi consequat labore ut ipsum voluptate aliquip tempor adipisicing cillum esse elit cillum Lorem sunt dolor proident nulla do elit labore dolore voluptate exercitation ut adipisicing culpa irure do qui esse deserunt reprehenderit sunt laborum cupidatat mollit veniam",
+    "id": "613327be55fd9c1b80d64571",
+    "price": 430.61,
+    "title": "Monitor Xiaomi Mi Curved Gaming Monitor 34 '(BHR4269GL / XMMNTWQ34)",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6145/686/preview_b/micurvedgamingmonitor34bhr4269glxmmntwq34_xiaomi_5f607c779eb71.jpeg"
+  },
+  {
+    "count": 5,
+    "description": "excepteur officia minim sunt eu mollit dolor elit consequat tempor quis deserunt pariatur commodo qui sint voluptate dolor non eu aute sit laboris id ex aliquip velit ea sit sit cupidatat laborum irure qui cupidatat voluptate non Lorem ut aliquip",
+    "id": "613327beef6cf1477f94764c",
+    "price": 304.36,
+    "title": "Philips 193V5LSB2 / 62 monitor",
+    "imageUrl": "https://cdn21vek.by/img/galleries/78/381/preview_b/philips_193v5lsb262_5395919053ab3.jpeg"
+  },
+  {
+    "count": 21,
+    "description": "velit sunt laboris proident reprehenderit nisi fugiat consequat id labore minim amet amet elit est sit nostrud ea voluptate do exercitation sit consectetur mollit veniam ex proident nostrud exercitation in sint nostrud id esse fugiat cupidatat occaecat pariatur velit proident",
+    "id": "613327bed9f95d936778be55",
+    "price": 308.3,
+    "title": "Monitor AOC 24V2Q",
+    "imageUrl": "https://cdn21vek.by/img/galleries/810/379/preview_b/24v2q_aoc_5c1ce48bebe6d.jpeg"
+  },
+  {
+    "count": 20,
+    "description": "do tempor occaecat in consectetur culpa laborum veniam irure sint laborum dolore labore irure quis ipsum sit enim reprehenderit eiusmod ullamco eu sit in fugiat id non duis incididunt consequat cillum in incididunt sunt ullamco Lorem in laborum exercitation occaecat",
+    "id": "613327bed0af8c7ad71a9866",
+    "price": 250.04,
+    "title": "BenQ GW2283 Monitor",
+    "imageUrl": "https://cdn21vek.by/img/galleries/1099/741/preview_b/gw2283_benq_5d7f871742dc0.jpeg"
+  },
+  {
+    "count": 12,
+    "description": "dolore dolor fugiat qui officia velit eiusmod ex amet incididunt exercitation ipsum laborum eu dolore elit id quis et qui elit ullamco id Lorem consequat velit adipisicing dolor culpa aute enim ex eu deserunt labore magna adipisicing occaecat in excepteur",
+    "id": "613327be435b37013068000d",
+    "price": 426.61,
+    "title": "Dell P2419HC Monitor",
+    "imageUrl": "https://cdn21vek.by/img/galleries/713/403/preview_b/p2419hc210aqgq_dell_5bb316208f7a6.jpeg"
+  },
+  {
+    "count": 5,
+    "description": "nostrud ea nostrud officia excepteur officia magna consectetur ad eiusmod aliqua occaecat Lorem laborum deserunt id velit nostrud esse ullamco sit pariatur esse deserunt minim dolor mollit est exercitation aliqua ut adipisicing eu labore nostrud tempor ut sunt ut eiusmod",
+    "id": "613327be8495fdb58dcbfb5b",
+    "price": 351.79,
+    "title": "Dell U2720Q Monitor",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6024/454/preview_b/u2720q_dell_5edf3958bae6a.jpeg"
+  },
+  {
+    "count": 4,
+    "description": "exercitation sint officia esse magna cillum cupidatat exercitation ex cupidatat elit officia consectetur laborum aliqua in et qui est aute nulla magna laborum reprehenderit sunt Lorem amet esse pariatur ex nostrud reprehenderit nulla nisi aliquip occaecat ullamco laboris mollit est",
+    "id": "613327be4113d67dd998c612",
+    "price": 482.43,
+    "title": "Asus VG279QM monitor",
+    "imageUrl": "https://cdn21vek.by/img/galleries/6338/277/preview_b/vg279qm_asus_600164e62f468.jpeg"
+  }
+]
