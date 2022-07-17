@@ -1,4 +1,4 @@
 export interface ResponseModel {
-  body: Record<string, unknown>,
-  statusCode?: number,
+  body: Record<string, unknown>;
+  statusCode?: number;
 }
