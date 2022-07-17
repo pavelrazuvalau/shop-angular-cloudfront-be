@@ -26,7 +26,7 @@ const serverlessConfiguration: AWS = {
   // import the function via paths
   functions: {
     getProductsList,
-    getProductsById
+    getProductsById,
   },
   package: { individually: true },
   custom: {
@@ -42,10 +42,10 @@ const serverlessConfiguration: AWS = {
     },
     autoswagger: {
       title: 'Products Service',
-      host: 'aspboj8k26.execute-api.eu-west-1.amazonaws.com/dev/',
       typefiles: ['./src/types/products.d.ts',],
       schemes: ['https'],
-      useStage: true,
+      apiType: 'http',
+      basePath: '/dev',
     }
   },
 };
