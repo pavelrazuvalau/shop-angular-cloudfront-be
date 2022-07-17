@@ -12,7 +12,7 @@ export default {
         responseData: {
           200: {
             description: 'Product list retrieved successfully',
-            bodyType: 'ProductsListModel',
+            bodyType: 'ProductListResponse',
           },
         },
       },

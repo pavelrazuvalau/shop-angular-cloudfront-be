@@ -12,7 +12,7 @@ export default {
         responseData: {
           200: {
             description: 'Product retrieved successfully',
-            bodyType: 'ProductModel',
+            bodyType: 'ProductDetailsResponse',
           },
           404: 'Product not found',
         },
