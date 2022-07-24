@@ -5,7 +5,7 @@ import { ResponseModel } from "../models/response.model";
 type ValidatedAPIGatewayProxyEvent<S> = Omit<APIGatewayProxyEvent, 'body'> & { body: FromSchema<S> }
 export type ValidatedEventAPIGatewayProxyEvent<S> = Handler<ValidatedAPIGatewayProxyEvent<S>, APIGatewayProxyResult>
 
-export const formatJSONResponse = ({ body, statusCode = 200 }: ResponseModel) => {
+export const formatJSONResponse = ({ body, statusCode }: ResponseModel) => {
   return {
     // For some reason setting "cors": true doesn't work, so I added cors headers manually
     headers: {
