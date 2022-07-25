@@ -12,7 +12,7 @@ export default {
         bodyType: 'BaseProduct',
         responseData: {
           200: {
-            description: 'Product retrieved successfully',
+            description: 'Product created successfully',
             bodyType: 'ProductDetailsResponse',
           },
           400: 'Product info posted is invalid',
