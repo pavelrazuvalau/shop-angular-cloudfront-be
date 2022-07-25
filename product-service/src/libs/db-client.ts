@@ -1,4 +1,4 @@
-import { Client as PostgreSQLClient, ClientConfig, QueryResult } from 'pg';
+import { Client as PostgreSQLClient, ClientConfig } from 'pg';
 import setupQuery from '@queries/setup.query';
 // import insertMockProductsQuery from '@queries/insert-mock-products.query';
 
@@ -30,16 +30,13 @@ class DBClient {
     this.client = new PostgreSQLClient(clientConfig);
 
     this.pendingConnectionPromise = this.client.connect()
-      .then(() => this.setupDatabase())
-      .catch(error => {
-        throw new Error(`Error while connecting to the db: ${error.message}`)
-      });
+      .then(() => this.setupDatabase());
   }
 
-  public async getRecords<T>(query: string): Promise<T[]> {
+  public async performQuery<T>(query: string): Promise<T[]> {
     await this.pendingConnectionPromise;
 
-    const queryResult = await this.performQuery<T>(query);
+    const queryResult = await this.client.query<T>(query);
 
     return queryResult.rows;
   }
@@ -49,16 +46,8 @@ class DBClient {
   }
 
   private async setupDatabase(): Promise<void> {
-    await this.performQuery(setupQuery);
-    // await this.fillMockData();
-  }
-
-  // private async fillMockData(): Promise<void> {
-  //   await this.performQuery(insertMockProductsQuery);
-  // }
-
-  private async performQuery<T>(query: string): Promise<QueryResult<T>> {
-    return this.client.query(query);
+    await this.client.query(setupQuery);
+    // await this.client.query(insertMockProductsQuery);
   }
 }
 

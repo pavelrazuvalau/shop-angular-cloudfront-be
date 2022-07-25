@@ -2,7 +2,7 @@ import type { AWS } from '@serverless/typescript';
 
 import envCredentials from './env';
 
-import { getProductsList, getProductsById } from '@functions/.';
+import { getProductsList, getProductsById, createProduct } from '@functions/.';
 
 const serverlessConfiguration: AWS = {
   service: 'product-service',
@@ -31,6 +31,7 @@ const serverlessConfiguration: AWS = {
   functions: {
     getProductsList,
     getProductsById,
+    createProduct,
   },
   package: { individually: true },
   custom: {

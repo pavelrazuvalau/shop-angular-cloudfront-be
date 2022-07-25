@@ -5,7 +5,8 @@ export default `
     id uuid not null default uuid_generate_v4() primary key,
     title text not null,
     description text,
-    price integer
+    price integer,
+    imageUrl text
   );
 
   create table if not exists stocks (
