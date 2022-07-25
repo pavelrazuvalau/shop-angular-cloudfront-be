@@ -1,4 +1,4 @@
-import { Client as PostgreSQLClient, ClientConfig } from 'pg';
+import { Client as PostgreSQLClient, ClientConfig, QueryResult } from 'pg';
 import setupQuery from '@queries/setup.query';
 // import insertMockProductsQuery from '@queries/insert-mock-products.query';
 
@@ -41,6 +41,18 @@ class DBClient {
     const queryResult = await this.client.query<T>(query);
 
     return queryResult.rows;
+  }
+
+  public beginTransaction(): Promise<QueryResult> {
+    return this.client.query('BEGIN');
+  }
+
+  public commitTransaction(): Promise<QueryResult> {
+    return this.client.query('COMMIT');
+  }
+
+  public rollbackTransaction(): Promise<QueryResult> {
+    return this.client.query('ROLLBACK');
   }
 
   public end(): Promise<void> {

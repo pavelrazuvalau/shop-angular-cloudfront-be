@@ -19,25 +19,35 @@ class ProductsService {
   }
 
   public async createProduct(product: BaseProduct): Promise<ProductDetails> {
-    const [productResult] = await dbClient.performQuery<ProductDetails>(createProductQuery(product));
+    try {
+      await dbClient.beginTransaction();
 
-    if (!productResult) {
-      throw new Error(`Product creation error. ${JSON.stringify(product)}`);
+      const [productResult] = await dbClient.performQuery<ProductDetails>(createProductQuery(product));
+
+      if (!productResult) {
+        throw new Error(`Product creation error. ${JSON.stringify(product)}`);
+      }
+
+      const [stockResult] = await dbClient.performQuery<ProductDetails>(createStockQuery({
+        ...product,
+        ...productResult
+      }));
+
+      if (!stockResult) {
+        throw new Error(`Stock creation error. ${JSON.stringify(product)}`);
+      }
+
+      await dbClient.commitTransaction();
+
+      return {
+        ...productResult,
+        count: stockResult.count
+      };
+    } catch (error) {
+      await dbClient.rollbackTransaction();
+
+      throw error;
     }
-
-    const [stockResult] = await dbClient.performQuery<ProductDetails>(createStockQuery({
-      ...product,
-      ...productResult
-    }));
-
-    if (!stockResult) {
-      throw new Error(`Stock creation error. ${JSON.stringify(product)}`);
-    }
-
-    return {
-      ...productResult,
-      count: stockResult.count
-    };
   }
 }
 
