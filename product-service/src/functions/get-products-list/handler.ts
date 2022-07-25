@@ -1,11 +1,11 @@
+import { APIGatewayProxyResult } from 'aws-lambda';
+
 import { formatJSONResponse } from '@libs/api-gateway';
 import { middyfy } from '@libs/lambda';
-
-import { APIGatewayProxyResult } from 'aws-lambda';
-import { SuccessResponseModel } from '../../models/response.model';
-
-import productsService from '../../services/products.service';
 import { handleServerError } from '@libs/handle-server-error';
+
+import { SuccessResponseModel } from '@models/response.model';
+import productsService from '@services/products.service';
 
 export default middyfy(async (): Promise<APIGatewayProxyResult> => {
   try {
