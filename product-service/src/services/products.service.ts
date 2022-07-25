@@ -5,6 +5,7 @@ import dbClient from '@libs/db-client';
 import getAllProductsQuery from '@queries/get-all-products.query';
 import getProductByIdQuery from '@queries/get-product-by-id.query';
 import createProductQuery from '@queries/create-product.query';
+import createStockQuery from '@queries/create-stock.query';
 
 class ProductsService {
   public getProducts(): Promise<ProductDetails[]> {
@@ -18,13 +19,25 @@ class ProductsService {
   }
 
   public async createProduct(product: BaseProduct): Promise<ProductDetails> {
-    const [result] = await dbClient.performQuery<ProductDetails>(createProductQuery(product));
+    const [productResult] = await dbClient.performQuery<ProductDetails>(createProductQuery(product));
 
-    if (!result) {
-      throw new Error(`Entity creation error. ${JSON.stringify(product)}`);
+    if (!productResult) {
+      throw new Error(`Product creation error. ${JSON.stringify(product)}`);
     }
 
-    return result;
+    const [stockResult] = await dbClient.performQuery<ProductDetails>(createStockQuery({
+      ...product,
+      ...productResult
+    }));
+
+    if (!stockResult) {
+      throw new Error(`Stock creation error. ${JSON.stringify(product)}`);
+    }
+
+    return {
+      ...productResult,
+      count: stockResult.count
+    };
   }
 }
 

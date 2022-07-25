@@ -36,6 +36,8 @@ class DBClient {
   public async performQuery<T>(query: string): Promise<T[]> {
     await this.pendingConnectionPromise;
 
+    console.log('Current DB query: ', query);
+
     const queryResult = await this.client.query<T>(query);
 
     return queryResult.rows;

@@ -1,13 +1,19 @@
 export interface BaseProduct {
   title: string;
   price: number;
+  count: number;
   description?: string;
   imageUrl?: string;
 }
 
-export interface ProductDetails extends BaseProduct {
+// Repeat all properties, otherwise "extended" properties will not be shown on Swagger
+export interface ProductDetails {
   id: string;
-  count?: number;
+  title: string;
+  price: number;
+  count: number;
+  description?: string;
+  imageUrl?: string;
 }
 
 export interface ProductListResponse {
@@ -16,8 +22,4 @@ export interface ProductListResponse {
 
 export interface ProductDetailsResponse {
   product: ProductDetails
-}
-
-export interface ProductCreationRequest {
-  product: BaseProduct;
 }

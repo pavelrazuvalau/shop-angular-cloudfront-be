@@ -9,7 +9,7 @@ export default {
         path: 'products',
         description: 'Created a new product',
         cors: true,
-        bodyType: 'ProductCreationRequest',
+        bodyType: 'BaseProduct',
         responseData: {
           200: {
             description: 'Product retrieved successfully',

@@ -1,6 +1,6 @@
-import { Product } from '../types/products';
+import { ProductDetails } from '../types/products';
 
-export const productsMock: Product[] = [
+export const productsMock: ProductDetails[] = [
   {
     count: 1,
     description: 'description 1',
