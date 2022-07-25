@@ -2,9 +2,12 @@ import { middyfy } from "@libs/lambda";
 
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from "aws-lambda";
 import { formatJSONResponse } from "@libs/api-gateway";
-import { NotFoundResponseModel, SuccessResponseModel } from '../../models/response.model';
+import {
+  InternalServerErrorResponseModel,
+  NotFoundResponseModel,
+  SuccessResponseModel,
+} from '../../models/response.model';
 import productsService from '../../services/products.service';
-import { handleInternalServerError } from '@libs/error-handler';
 
 export default middyfy(async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
   const productId = event.pathParameters.productId;
@@ -17,6 +20,6 @@ export default middyfy(async (event: APIGatewayProxyEvent): Promise<APIGatewayPr
 
     return formatJSONResponse(response);
   } catch (error) {
-    return handleInternalServerError(error);
+    return formatJSONResponse(new InternalServerErrorResponseModel({ error }));
   }
 });

@@ -2,8 +2,7 @@ import { formatJSONResponse } from '@libs/api-gateway';
 import { middyfy } from '@libs/lambda';
 
 import { APIGatewayProxyResult } from "aws-lambda";
-import { SuccessResponseModel } from '../../models/response.model';
-import { handleInternalServerError } from '@libs/error-handler';
+import { InternalServerErrorResponseModel, SuccessResponseModel } from '../../models/response.model';
 
 import productsService from '../../services/products.service';
 
@@ -13,6 +12,6 @@ export default middyfy(async (): Promise<APIGatewayProxyResult> => {
 
     return formatJSONResponse(new SuccessResponseModel({ products }));
   } catch (error) {
-    return handleInternalServerError(error);
+    return formatJSONResponse(new InternalServerErrorResponseModel({ error }));
   }
 });
