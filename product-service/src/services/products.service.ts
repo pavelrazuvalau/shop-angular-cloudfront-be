@@ -1,26 +1,19 @@
-import products from "@mocks/products.mock.json";
 import { Product } from '../types/products';
 
+import dbClient from '@libs/db-client';
+
+import getAllProductsQuery from '@queries/get-all-products.query';
+import getProductByIdQuery from '@queries/get-product-by-id.query';
+
 class ProductsService {
-  private static instance: ProductsService;
-
-  private constructor() { }
-
-  public static getInstance(): ProductsService {
-    if (!ProductsService.instance) {
-      ProductsService.instance = new ProductsService();
-    }
-
-    return ProductsService.instance;
-  }
-
-  public async getProducts(): Promise<Product[]> {
-    return Promise.resolve(products as Product[]);
+  public getProducts(): Promise<Product[]> {
+    return dbClient.getRecords<Product>(getAllProductsQuery);
   }
 
   public async getProductById(productId: string): Promise<Product | undefined> {
-    return (products as Product[]).find(product => product.id === productId)
+    const result = await dbClient.getRecords<Product>(getProductByIdQuery(productId));
+    return result[0];
   }
 }
 
-export default ProductsService.getInstance();
+export default new ProductsService();
