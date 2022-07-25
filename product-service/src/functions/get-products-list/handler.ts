@@ -12,6 +12,6 @@ export default middyfy(async (): Promise<APIGatewayProxyResult> => {
 
     return formatJSONResponse(new SuccessResponseModel({ products }));
   } catch (error) {
-    return formatJSONResponse(new InternalServerErrorResponseModel({ error }));
+    return formatJSONResponse(new InternalServerErrorResponseModel({ error: error.message }));
   }
 });
