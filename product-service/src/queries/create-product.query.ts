@@ -2,7 +2,7 @@ import { BaseProduct } from '../types/products';
 
 export default function(product: BaseProduct) {
   return `
-    insert into products(title, description, price, imageUrl)
+    insert into products(title, description, price, image_url)
     values (
       '${product.title}', 
       ${product.description ? `'${product.description}'` : null},

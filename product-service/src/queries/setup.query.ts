@@ -6,7 +6,7 @@ export default `
     title text not null,
     description text,
     price integer,
-    imageUrl text
+    image_url text
   );
 
   create table if not exists stocks (
