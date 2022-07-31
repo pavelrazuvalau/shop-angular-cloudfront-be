@@ -11,3 +11,5 @@ jspm_packages
 swagger/*
 
 coverage/*
+
+env.ts

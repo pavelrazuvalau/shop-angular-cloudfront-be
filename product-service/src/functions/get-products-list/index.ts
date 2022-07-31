@@ -14,6 +14,7 @@ export default {
             description: 'Product list retrieved successfully',
             bodyType: 'ProductListResponse',
           },
+          500: 'Internal server error occurred',
         },
       },
     },

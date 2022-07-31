@@ -1,13 +1,16 @@
 import type { AWS } from '@serverless/typescript';
 
-import { getProductsList, getProductsById } from '@functions/.';
+import envCredentials from './env';
+
+import { getProductsList, getProductsById, createProduct } from '@functions/.';
 
 const serverlessConfiguration: AWS = {
   service: 'product-service',
   frameworkVersion: '3',
   plugins: [
     'serverless-auto-swagger',
-    'serverless-esbuild'
+    'serverless-esbuild',
+    'serverless-offline',
   ],
   provider: {
     name: 'aws',
@@ -21,12 +24,14 @@ const serverlessConfiguration: AWS = {
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
       NODE_OPTIONS: '--enable-source-maps --stack-trace-limit=1000',
+      ...envCredentials,
     },
   },
   // import the function via paths
   functions: {
     getProductsList,
     getProductsById,
+    createProduct,
   },
   package: { individually: true },
   custom: {
@@ -34,7 +39,7 @@ const serverlessConfiguration: AWS = {
       bundle: true,
       minify: false,
       sourcemap: true,
-      exclude: ['aws-sdk'],
+      exclude: ['aws-sdk', 'pg-native'],
       target: 'node14',
       define: { 'require.resolve': undefined },
       platform: 'node',

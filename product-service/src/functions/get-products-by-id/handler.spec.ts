@@ -1,14 +1,20 @@
 import { productsMock } from '@mocks/products.mock';
 import { APIGatewayProxyEvent } from 'aws-lambda';
+import { NotFoundResponseModel, SuccessResponseModel } from '@models/response.model';
+import { ProductDetails } from '../../types/products';
 
 describe('getProductsById', () => {
   let mockFormatJSONResponse: jest.Mock;
   let handler: (event: Partial<APIGatewayProxyEvent>) => void;
 
+  let expectedProduct: ProductDetails | undefined;
+
   beforeEach(async () => {
     mockFormatJSONResponse = jest.fn().mockReturnValue(Promise.resolve())
 
-    jest.mock('@mocks/products.mock.json', () => productsMock);
+    jest.mock('@services/products.service', () => ({
+      getProductById: () => expectedProduct
+    }));
     jest.mock('@libs/api-gateway', () => ({
       formatJSONResponse: mockFormatJSONResponse,
     }));
@@ -22,10 +28,12 @@ describe('getProductsById', () => {
 
   afterEach(() => {
     jest.resetModules();
+
+    expectedProduct = undefined;
   });
 
   it('should format json response with product found by id', async () => {
-    const expectedProduct = productsMock[1];
+    expectedProduct = productsMock[1];
 
     await handler({
       pathParameters: {
@@ -33,7 +41,7 @@ describe('getProductsById', () => {
       },
     });
 
-    expect(mockFormatJSONResponse).toBeCalledWith({ body: { product: expectedProduct }, statusCode: 200 });
+    expect(mockFormatJSONResponse).toBeCalledWith(new SuccessResponseModel({ product: expectedProduct }));
   });
 
   it('should return 404 in case if product not found', async () => {
@@ -43,6 +51,6 @@ describe('getProductsById', () => {
       },
     });
 
-    expect(mockFormatJSONResponse).toBeCalledWith({ statusCode: 404 });
+    expect(mockFormatJSONResponse).toBeCalledWith(new NotFoundResponseModel());
   });
 });

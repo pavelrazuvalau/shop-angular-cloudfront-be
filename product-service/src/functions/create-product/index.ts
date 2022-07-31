@@ -5,16 +5,17 @@ export default {
   events: [
     {
       http: {
-        method: 'get',
-        path: 'products/{productId}',
-        description: 'Retrieves product details by ID',
+        method: 'post',
+        path: 'products',
+        description: 'Created a new product',
         cors: true,
+        bodyType: 'BaseProduct',
         responseData: {
           200: {
-            description: 'Product retrieved successfully',
+            description: 'Product created successfully',
             bodyType: 'ProductDetailsResponse',
           },
-          404: 'Product not found',
+          400: 'Product info posted is invalid',
           500: 'Internal server error occurred',
         },
       },
