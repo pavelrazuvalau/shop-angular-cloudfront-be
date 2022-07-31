@@ -5,6 +5,7 @@ const serverlessConfiguration: AWS = {
   service: 'import-service',
   frameworkVersion: '3',
   plugins: [
+    'serverless-auto-swagger',
     'serverless-esbuild',
     'serverless-offline',
   ],
@@ -48,6 +49,13 @@ const serverlessConfiguration: AWS = {
       platform: 'node',
       concurrency: 10,
     },
+    autoswagger: {
+      title: 'Import Service',
+      typefiles: ['./src/types/types.d.ts',],
+      schemes: ['https'],
+      apiType: 'http',
+      basePath: '/dev',
+    }
   },
 };
 

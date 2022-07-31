@@ -13,11 +13,11 @@
     "node": ">=14.15.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.1185.0",
-    "csv-parser": "^3.0.0",
     "@middy/core": "^2.5.3",
     "@middy/http-json-body-parser": "^2.5.3",
-    "@middy/input-output-logger": "^3.1.0"
+    "@middy/input-output-logger": "^3.1.0",
+    "aws-sdk": "^2.1185.0",
+    "csv-parser": "^3.0.0"
   },
   "devDependencies": {
     "@serverless/typescript": "^3.0.0",
@@ -29,6 +29,7 @@
     "jest": "^28.1.3",
     "json-schema-to-ts": "^1.5.0",
     "serverless": "^3.0.0",
+    "serverless-auto-swagger": "^2.8.2",
     "serverless-esbuild": "^1.23.3",
     "serverless-offline": "^9.1.1",
     "ts-jest": "^28.0.7",
