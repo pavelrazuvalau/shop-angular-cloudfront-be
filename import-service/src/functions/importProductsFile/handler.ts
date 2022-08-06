@@ -11,6 +11,7 @@ import { handleServerError } from '@libs/handle-server-error';
 import { BadRequestResponseModel, SuccessResponseModel } from '@models/response.model';
 
 const s3 = new S3({ region: 'eu-west-1' });
+const { PRODUCTS_BUCKET_NAME } = process.env;
 
 export default middyfy(async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
   try {
@@ -21,7 +22,7 @@ export default middyfy(async (event: APIGatewayProxyEvent): Promise<APIGatewayPr
     }
 
     const signedUrl = s3.getSignedUrl('putObject', {
-      Bucket: 'pc-expert-products',
+      Bucket: PRODUCTS_BUCKET_NAME,
       Key: `uploaded/${fileName}`,
       Expires: 60,
       ContentType: 'text/csv',

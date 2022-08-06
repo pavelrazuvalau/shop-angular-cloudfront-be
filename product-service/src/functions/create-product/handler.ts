@@ -5,7 +5,7 @@ import { formatJSONResponse } from '@libs/api-gateway';
 import { handleServerError } from '@libs/handle-server-error';
 import { ValidationError } from '@libs/validation-error';
 
-import validate from '@functions/create-product/validator';
+import validate from '@libs/product-validator';
 import productsService from '@services/products.service';
 import { BadRequestResponseModel, SuccessResponseModel } from '@models/response.model';
 
