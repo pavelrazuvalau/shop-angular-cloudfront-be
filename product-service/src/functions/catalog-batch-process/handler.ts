@@ -21,6 +21,7 @@ export default async function(event: SQSEvent): Promise<SQSBatchResponse> {
       console.log('Creating products in DB');
 
       const createdProducts = await productsService.createBatchOfProducts(products);
+      const overallStockCount = createdProducts.reduce((acc, current) => current.count + acc, 0);
 
       console.log('Sending SNS notification');
 
@@ -28,6 +29,12 @@ export default async function(event: SQSEvent): Promise<SQSBatchResponse> {
         Subject: 'New products parsed',
         Message: `The following products have been added: \n\n ${JSON.stringify(createdProducts, null, 2)}`,
         TopicArn: SNS_ARN,
+        MessageAttributes: {
+          overallStockCount: {
+            DataType: "Number",
+            StringValue: `${overallStockCount}`,
+          }
+        },
       }).promise();
 
       console.log('Send SNS notification for event ', record);

@@ -73,9 +73,25 @@ const serverlessConfiguration: AWS = {
           Protocol: 'email',
           TopicArn: {
             Ref: 'SNSTopic'
+          },
+          FilterPolicy: {
+            overallStockCount: [{ "numeric": [ "<", 1000 ] }]
           }
         }
-      }
+      },
+      HighStockSubscription: {
+        Type: 'AWS::SNS::Subscription',
+        Properties: {
+          Endpoint: envCredentials.SNS_SECONDARY_NOTIFICATION_EMAIL,
+          Protocol: 'email',
+          TopicArn: {
+            Ref: 'SNSTopic'
+          },
+          FilterPolicy: {
+            overallStockCount: [{ "numeric": [ ">=", 1000 ] }]
+          }
+        }
+      },
     }
   },
   // import the function via paths
