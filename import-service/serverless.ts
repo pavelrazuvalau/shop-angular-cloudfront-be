@@ -46,6 +46,42 @@ const serverlessConfiguration: AWS = {
   },
   // import the function via paths
   functions: { importProductsFile, importFileParser },
+  resources: {
+    Parameters: {
+      AuthServiceName: {
+        Type: 'String',
+        Default: env.AUTH_SERVICE_NAME
+      }
+    },
+    Resources: {
+      GatewayResponseDefault4XX: {
+        Type: 'AWS::ApiGateway::GatewayResponse',
+        Properties: {
+          ResponseParameters: {
+            'gatewayresponse.header.Access-Control-Allow-Origin': "'*'",
+            'gatewayresponse.header.Access-Control-Allow-Headers': "'*'",
+          },
+          ResponseType: 'DEFAULT_4XX',
+          RestApiId: {
+            Ref: 'ApiGatewayRestApi',
+          },
+        },
+      },
+      GatewayResponseDefault5XX: {
+        Type: 'AWS::ApiGateway::GatewayResponse',
+        Properties: {
+          ResponseParameters: {
+            'gatewayresponse.header.Access-Control-Allow-Origin': "'*'",
+            'gatewayresponse.header.Access-Control-Allow-Headers': "'*'",
+          },
+          ResponseType: 'DEFAULT_5XX',
+          RestApiId: {
+            Ref: 'ApiGatewayRestApi',
+          },
+        },
+      },
+    }
+  },
   package: { individually: true },
   custom: {
     esbuild: {
@@ -64,7 +100,7 @@ const serverlessConfiguration: AWS = {
       schemes: ['https'],
       apiType: 'http',
       basePath: '/dev',
-    }
+    },
   },
 };
 
