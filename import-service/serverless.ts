@@ -1,5 +1,6 @@
 import type { AWS } from '@serverless/typescript';
 import { importProductsFile, importFileParser } from '@functions/index';
+import env from './env';
 
 const serverlessConfiguration: AWS = {
   service: 'import-service',
@@ -21,17 +22,25 @@ const serverlessConfiguration: AWS = {
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
       NODE_OPTIONS: '--enable-source-maps --stack-trace-limit=1000',
+      ...env
     },
     iamRoleStatements: [
       {
         Effect: 'Allow',
-        Action: ['s3:ListBucket'],
+        Action: 's3:ListBucket',
         Resource: ['arn:aws:s3:::pc-expert-products']
       },
       {
         Effect: 'Allow',
-        Action: ['s3:*'],
+        Action: ['s3:GetObject', 's3:PutObject', 's3:CopyObject', 's3:DeleteObject'],
         Resource: ['arn:aws:s3:::pc-expert-products/*']
+      },
+      {
+        Effect: 'Allow',
+        Action: ['sqs:GetQueueUrl', 'sqs:SendMessage'],
+        Resource: [
+          { 'Fn::Join': [':', ['arn:aws:sqs', { Ref: 'AWS::Region' }, { Ref: 'AWS::AccountId' }, env.SQS_QUEUE_NAME]] }
+        ]
       }
     ]
   },

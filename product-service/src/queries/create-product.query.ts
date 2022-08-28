@@ -9,6 +9,6 @@ export default function(product: BaseProduct) {
       ${product.price},
       ${product.imageUrl ? `'${product.imageUrl}'` : null}
     )
-    returning *;
+    returning id, title, description, price, image_url as imageUrl;
   `;
 }

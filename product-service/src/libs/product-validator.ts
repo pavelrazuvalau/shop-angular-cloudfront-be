@@ -1,4 +1,4 @@
-import { BaseProduct } from '../../types/products';
+import { BaseProduct } from '../types/products';
 
 import {
   IsNotEmpty,
