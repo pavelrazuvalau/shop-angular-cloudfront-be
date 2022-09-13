@@ -3,4 +3,5 @@
 export default {
   PRODUCTS_BUCKET_NAME: 'bucket-name',
   SQS_QUEUE_NAME: 'sqsQueueName',
+  AUTH_SERVICE_NAME: 'service-name',
 }
